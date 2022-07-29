@@ -27,3 +27,11 @@ What I Learned From This Question:
  
 2. A hash table.
     A ash table is the best way to maintain a mapping of each element in the array to its index.
+
+New words:
+    iterating
+    collision
+    degenerate 
+    constant time
+    amortized 
+    
