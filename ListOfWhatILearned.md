@@ -23,6 +23,7 @@ What Solution I Give:
 
 What I Learned From This Question:
 1. return new int[] { i, j };
- There is no need to new a list anwser for setting the indexes. Directly set the indexes in the list when do return.
+    There is no need to new a list anwser for setting the indexes. Directly set the indexes in the list when do return.
  
-2. 
+2. A hash table.
+    A ash table is the best way to maintain a mapping of each element in the array to its index.
