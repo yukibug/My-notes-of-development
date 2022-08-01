@@ -23,12 +23,18 @@ What Solution I Give:
 
 What I Learned From This Question:
 1. return new int[] { i, j };
+
     There is no need to new a list anwser for setting the indices. Directly set the indices in the list when do return.
  
 2. A hash table.
+    
     A ash table is the best way to maintain a mapping of each element in the array to its index.
+    Map<Integer, Integer> map = new HashMap<>();
+    map.put(nums[i], i)
+    map.containsKey(complement) && map.get(complement) != i)
 
 New words:
+
     iterating
     collision
     degenerate 
