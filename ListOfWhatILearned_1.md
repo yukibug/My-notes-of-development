@@ -29,9 +29,11 @@ What I Learned From This Question:
 2. A hash table.
     
     A ash table is the best way to maintain a mapping of each element in the array to its index.
+    ```
     Map<Integer, Integer> map = new HashMap<>();
     map.put(nums[i], i)
     map.containsKey(complement) && map.get(complement) != i)
+    ```
 
 New words:
 
@@ -42,6 +44,8 @@ New words:
     amortized 
     
  Example Solution:
+ 
+ ```
  class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer,Integer> map = new HashMap<>();
@@ -57,3 +61,4 @@ New words:
         return null;
     }
 }
+```
